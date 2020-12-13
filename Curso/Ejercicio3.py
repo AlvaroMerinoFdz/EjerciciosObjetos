@@ -4,10 +4,10 @@ class Telefono:
         self.numero=numero
 
     def telefonear(self):
-        print("llamando")
+        print("Llamando")
 
     def colgar(self):
-        print("colgando")
+        print("Colgando")
 
     def __str__(self):
         return self.numero
@@ -18,7 +18,7 @@ class Camara:
         self.mpx=mpx
 
     def fotografiar(self):
-        print("fotografiando")
+        print("Fotografiando")
 
     def __str__(self):
         return self.mpx
@@ -32,7 +32,7 @@ class Reproductor:
         print("Reproduciendo mp3")
 
     def reproducirvideo(self):
-        print("reproduciendo video")
+        print("Reproduciendo video")
 
     def __str__(self):
         return self.capacidad
