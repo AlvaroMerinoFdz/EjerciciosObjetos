@@ -11,8 +11,9 @@ class Circulo():
         if radio>=0:
             self._radio = radio
         else:
+            self._radio = 0
             raise ValueError("El radio tiene que ser positivo")
-            self._radio=0
+
 
 
     def get_radio(self):
