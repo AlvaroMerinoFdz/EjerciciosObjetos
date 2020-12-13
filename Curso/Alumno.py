@@ -3,4 +3,5 @@ class Alumno:
 
     def __init__(self, nombre=""):
         self.nombre = nombre
+        self.__secreto = "asdasd"
         Alumno.contador += 1
