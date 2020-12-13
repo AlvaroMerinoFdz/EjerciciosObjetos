@@ -51,3 +51,4 @@ if __name__ == '__main__':
     mimovil = Movil("634714357","5Mpx","1Gb")
     print(dir(mimovil))
     print(mimovil)
+
